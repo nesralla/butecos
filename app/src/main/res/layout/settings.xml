@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutRestaurantsDetails"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:text="Cidade"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textSize="25dip"
+        android:id="@+id/textViewCidade">
+    </TextView>
+    <Spinner
+        android:layout_below="@+id/textViewCidade"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/spinner_prompt_citys"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCity">
+    </Spinner>
+    <TextView
+        android:layout_below="@+id/spinnerCity"
+        android:text="Ano"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textSize="25dip"
+        android:id="@+id/textViewAno">
+    </TextView>
+    <Spinner
+        android:drawSelectorOnTop="true"
+        android:layout_below="@+id/textViewAno"
+        android:prompt="@string/spinner_prompt_ano"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerAno">
+    </Spinner>
+    <TextView
+        android:layout_below="@+id/spinnerAno"
+        android:id="@+id/pre_email"
+        android:textSize="25dip"
+        android:gravity="center_horizontal"
+        android:text="E-mail"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"/>
+    <EditText
+        android:layout_below="@+id/pre_email"
+        android:id="@+id/editTextEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:imeOptions="actionDone"
+        android:inputType="textEmailAddress">
+    </EditText>
+    <Button
+        android:layout_below="@+id/editTextEmail"
+        android:id="@+id/salvar"
+        android:text="Salvar"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/editTextEmail"
+        android:layout_toRightOf="@+id/salvar"
+        android:id="@+id/close"
+        android:text="Fechar"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+
+

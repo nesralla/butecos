@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Guia Comida de Buteco</string>
+    <string name="app_description">Guia Comida de Buteco</string>
+    <string name="main_title">Guia Comida de Buteco</string>
+    <string name="about_title">Sobre</string>
+    <string name="about_text"> <p>Buteco é um termo oriundo do português de Portugal <i>botica</i>
+    							e do espanhol da Espanha <i>bodega</i>,
+    							que por sua vez derivam do grego <i>apothéke</i>,
+    							que significa depósito, casa de bebidas ou loja em que se vendiam gêneros a retalho.</p>
+    							<p></p>
+    							<p>No Brasil, o boteco (buteco), ou botequim, ficou tradicionalmente
+    							   conhecido como um lugar onde se comercializa bebidas alcoólicas,
+    							   servindo de encontro entre "boêmios", onde se procura uma boa bebida,
+    							   e bons petiscos e uma conversa sem compromisso.</p>
+    							<p>No android o Guia Comida de Buteco é para auxiliar a você encontrar os melhores butecos com os melhores petiscos !</p>
+
+    </string>
+    <string name="help_title">Ajuda</string>
+     <string name="help_text">Este aplicativo está em constante melhorias e requer conexão WI-FI/3G/EDGE para que você possa ver as fotos dos pratos e para usar mapas e rotas.
+     						  Existem 2 abas que nelas voce encontra informações sobre os bares e pratos.
+     						  Problemas ou sugestões envie um e-mail para igor@riosistemas.com.br ou pelo twitter @nesralla
+     						  Desenvolvido por Igor Nesralla Ribeiro - 2016
+    </string>
+    <string name="exit_title">Sair</string>
+    <string name="ok">Ok</string>
+    <string name="butecos">Butecos</string>
+    <string name="settings_label">Configurações</string>
+    <string name="settings_title">Configurações</string>
+    <string name="search_label">Dictionary</string>
+    <string name="search_hint">Search the dictionary</string>
+    <string name="menu_search">Search</string>
+    <string name="settings_description">Definitions of words</string>
+    <string name="spinner_prompt_citys">Escolha uma cidade</string>
+    <string name="spinner_prompt_ano">Escolha o ano</string>
+    <string-array name="citys">
+        <item>Todas</item>
+        <item>Belo Horizonte</item>
+        <item>Belém</item>
+        <item>Campinas</item>
+        <item>Fortaleza</item>
+        <item>Goiânia</item>
+        <item>Ipatinga</item>
+        <item>Juiz de Fora</item>
+        <item>Manaus</item>
+        <item>Montes Claros</item>
+        <item>Poços de Caldas</item>
+        <item>Rio de Janeiro</item>
+        <item>Ribeirão Preto</item>
+        <item>Salvador</item>
+        <item>São José do Rio Preto</item>
+        <item>Uberlândia</item>
+    </string-array>
+    <string-array name="anos">
+        <item>Todos</item>
+        <item>2011</item>
+        <item>2010</item>
+    </string-array>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutRestaurantsDetails"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/res_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/res_name"
+        android:id="@+id/res_address"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignLeft="@+id/res_name"></TextView>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/res_address"
+        android:id="@+id/res_phone"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignLeft="@+id/res_name"></TextView>
+
+    <ImageButton
+        android:background="@null"
+        android:id="@+id/imageButtonMaps"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/res_address"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:src="@mipmap/maps">
+    </ImageButton>
+    <ImageButton
+        android:background="@null"
+        android:id="@+id/imageButtonPhone"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/res_address"
+        android:layout_toRightOf="@+id/imageButtonMaps"
+        android:layout_width="43dp"
+        android:layout_height="48dp"
+        android:src="@mipmap/phone">
+    </ImageButton>
+    <View
+        android:id="@+id/horizontalRuleFinal"
+        android:layout_below="@+id/imageButtonPhone"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"/>
+    <ListView
+        android:layout_below="@+id/horizontalRuleFinal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/listFoods"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+    </ListView>
+</RelativeLayout>
+
+
+

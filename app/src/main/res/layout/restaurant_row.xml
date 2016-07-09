@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dip"
+        android:paddingTop="15dp"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/res_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingRight="2dip"
+        android:layout_toRightOf="@id/_id"/>
+    <TextView
+        android:id="@+id/res_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:paddingLeft="2dip"
+        android:layout_below="@+id/res_name" />
+    -
+    <TextView
+        android:id="@+id/res_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:paddingLeft="2dip"
+        android:layout_below="@+id/res_name"
+        android:layout_toRightOf="@+id/res_address" />
+    -
+    <TextView
+        android:id="@+id/res_neiborhood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:paddingLeft="2dip"
+        android:layout_below="@+id/res_name"
+        android:layout_toRightOf="@+id/res_number"/>
+    -
+    <TextView
+        android:id="@+id/res_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:paddingLeft="2dip"
+        android:layout_below="@+id/res_name"
+        android:layout_toRightOf="@+id/res_neiborhood"/>
+    -
+    <TextView
+        android:id="@+id/res_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:paddingLeft="2dip"
+        android:layout_below="@+id/res_name"
+        android:layout_toRightOf="@+id/res_city"/>
+    -
+    <TextView
+        android:id="@+id/res_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:paddingLeft="2dip"
+        android:layout_below="@+id/res_state" />
+</RelativeLayout>

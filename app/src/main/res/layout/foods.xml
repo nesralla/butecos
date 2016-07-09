@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/LinearLayoutFoods">
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp" >
+        <AutoCompleteTextView
+            android:textColor="@color/black"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:id="@+id/autoCompletePetiscos"
+            android:hint="Buscar petiscos"
+            android:layout_weight="1"
+            android:imeOptions="actionDone">
+        </AutoCompleteTextView>
+    </LinearLayout>
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listFoods">
+    </ListView>
+
+</LinearLayout>

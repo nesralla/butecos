@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayoutRestaurantsDetails"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:layout_marginTop="70dip"
+        android:text="Selecione a sua cidade"
+        android:textSize="25dip"
+        android:gravity="center_horizontal|center_vertical"
+        android:id="@+id/txtViewCity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <Spinner
+        android:layout_below="@+id/txtViewCity"
+        android:drawSelectorOnTop="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:prompt="@string/spinner_prompt_citys"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCity">
+    </Spinner>
+    <TextView
+        android:layout_below="@+id/spinnerCity"
+        android:text="Ano"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textSize="25dip"
+        android:id="@+id/textViewAno">
+    </TextView>
+    <Spinner
+        android:drawSelectorOnTop="true"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textViewAno"
+        android:prompt="@string/spinner_prompt_ano"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerAno">
+    </Spinner>
+    <Button
+        android:layout_marginTop="40dip"
+        android:layout_below="@+id/spinnerAno"
+        android:id="@+id/salvar"
+        android:text="Salvar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
